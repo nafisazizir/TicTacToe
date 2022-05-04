@@ -2,7 +2,7 @@
 Tic-tac-toe, noughts and crosses, or Xs and Os is a paper-and-pencil game for two players who take turns marking the spaces in a three-by-three grid with X or O. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row is the winner.
 
 ## Description
-Tic-tac-toe, noughts and crosses, or Xs and Os is a paper-and-pencil game for two players who take turns marking the spaces in a three-by-three grid with X or O. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row is the winner. This project completed with 
+Tic-tac-toe, noughts and crosses, or Xs and Os is a paper-and-pencil game for two players who take turns marking the spaces in a three-by-three grid with X or O. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row is the winner. This project completed with automatic computer's move that smart enough to beat the players, aka. it's not using random move. The computer's move algorithm is to find the possible spot to be marked, and choose the best spot that might have the highest possibilities to win.
 
 ## Getting Started
 ### Dependencies
@@ -17,12 +17,13 @@ Install the required packages by executing the following command.
 - ```main.py``` : main program to play Tic-tac-toe games
 - ```requirements.txt``` : text file contains the dependencies
 
-## Deploy demo
+## How to Play
 1. Download prequisites, procedure is in **Dependencies** section
 2. Run main.py in IDE
-3. Enter the first 12 code of EAN 13 code
-4. Then, input the file name to save the output images (must be suffix with .eps)
-5. If you have already enter ```3.``` and ```4.``` correctly, press ```Enter```
-6. Then, your EAN 13 Barcode will appear on your computer screen, and output file already saved in the main.py directory
+3. Player's moves are marked by 'X', then the computer's moves are marked by 'O'
+4. Click one of the nine box available, after you marked the spot, the program will automatically marked the computer's spot
+5. Mark your next move until player or computer win
+6. If all spots are marked, and neither player nor computer win, then it's tie
+7. If you wan to play again, press ```reset```
+8. Have fun, and try to beat the computer!!
 
-## Interface and sample output
